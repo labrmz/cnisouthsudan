@@ -1,0 +1,170 @@
+$bg-color:#333;
+$font-color:#fff;
+$primary-color:#008ed6;
+$dark-overlay: rgba(0,0,0,0.7);
+$icon-size:30px;
+
+
+
+body{
+    background: $bg-color;
+    color: $font-color;
+}
+
+.navbar{
+    border-bottom: $primary-color 3px;
+    opacity: 0.8;
+
+}
+
+
+#home-section{
+    background-color: rgb(26, 131, 187);
+    min-height:1700px;
+    background-size:cover;
+    background-attachment:fixed;
+
+
+    .dark-overlay{
+        background-color:$dark-overlay;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 1700px;
+    
+    }
+    
+    
+    .home-inner{
+        padding-top: 150px;
+    
+    }
+    .card-form{
+        opacity: 0.8;
+    }
+}
+  
+    
+   .fa{
+       color: $primary-color;
+       background: #fff;
+       padding: 4px;
+       border-radius: 5px;
+       font-size: $icon-size;
+   } 
+
+
+
+#explore-section, #share-section{
+    .fa{
+        color:#fff;
+        background:  #146D9D;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: $icon-size;
+    }
+}
+
+
+#create-section{
+    .fa{
+        color: $primary-color;
+        background: #fff;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: $icon-size;
+    }
+}
+
+#contact {
+    font-family: 'Roboto', san-serif;
+    background: url("../img/conbak.jpeg") no-repeat center center fixed;
+}
+
+.main-section{
+    margin:0 auto;
+    margin-top: 150px;
+    padding: 0;
+
+}
+
+.modal-content{
+    background-color: #33495e;
+    opacity: .85;
+
+}
+
+.user-img{
+    margin-top: -50px;
+    margin-bottom:100px;
+}
+.user-img img{
+    height: 100px;
+    width: 100px;
+}
+
+.form-group{
+    margin-bottom:20px;
+}
+
+.form-group input{
+    border-radius: 0;
+    border: 0;
+    height: 38px;
+    padding-left: 50px;
+}
+
+
+
+.form-input button {
+    width:30%;
+    margin-bottom: 20px;
+}
+.btn-success{
+    background-color:#2ecc71;
+    border-radius:0;
+    padding: .7em;
+
+}
+
+.btn-success:hover{
+    background-color:#27ae60;
+}
+
+.link-part{
+    padding: 5px 0 20px;
+  
+}
+.link-part a{
+    color:#bfe4ec;
+}
+
+
+#about-section{
+   
+    min-height:500px;
+    background-size:cover;
+    background-attachment:fixed;
+
+
+}
+
+#about-section {
+    background-color: rgb(26, 131, 187);
+    min-height: 2500px;
+    background-size: cover;
+    background-attachment: fixed; }
+    #about-section .dark-overlay {
+      background-color: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      min-height:2500px; }
+    #about-section .home-inner {
+      padding-top: 150px; }
+ 
+
+
+    
