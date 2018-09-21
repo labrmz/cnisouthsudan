@@ -8,7 +8,7 @@ body {
 
 #home-section {
   background: url("../img/boy.jpeg") no-repeat;
-  min-height: 2500px;
+  min-height:3500px;
   background-size: cover;
   background-attachment: fixed; }
   #home-section .dark-overlay {
@@ -17,11 +17,28 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    min-height:2500px; }
+    min-height:3500px; }
   #home-section .home-inner {
     padding-top: 150px; }
-  #home-section .card-form {
-    opacity: 0.8; }
+
+
+    #about-section {
+      background: url("../img/boy.jpeg") no-repeat;
+      min-height:4500px;
+      background-size: cover;
+      background-attachment: fixed; }
+      #about-section .dark-overlay {
+        background-color: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height:4500px; }
+      #home-section .home-inner {
+        padding-top: 150px; }
+
+
+
 
 .fa {
   color: #008ed6;
