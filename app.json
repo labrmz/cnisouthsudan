@@ -1,0 +1,7 @@
+{
+    "name": "cni south sudan",
+    "repository":"https://github.com/lababrmz/cnisouthsudan.git",
+    "logo": "https://cnisouthsudan.herokuapp.com/node.svg",
+    "keywords":["node","express","static"],
+    "image":"cni/nodejs"
+}
