@@ -9,6 +9,8 @@
   "author": "Brad Traversy",
   "license": "MIT",
   "dependencies": {
+    "express":"*",
+    "body-parser":"*",
     "nodemailer": "*",
     "bootstrap": "4.0.0-beta",
     "font-awesome": "^4.7.0",
